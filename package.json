@@ -8,5 +8,8 @@
     "@babel/core": "^7.22.1",
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3"
+  },
+  "scripts": {
+    "build": "babel src/app.js -o public/scripts/app.js --presets=@babel/preset-env,@babel/preset-react --watch"
   }
 }
